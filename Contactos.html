@@ -1,0 +1,91 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Electroterapia Avanzada</title>
+    <link rel="stylesheet" href="contacto.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav container">
+            <a href="index.html" class="logo">
+                <span class="logo-dot"></span>
+                Electroterapia<span style="color: var(--primary);">Avanzada</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="Inicio.html">Inicio</a></li>
+                <li><a href="tratamientos.html">Tratamientos</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="Contactos.html" class="active">Contacto</a></li>
+            </ul>
+            <a href="#form" class="btn btn-primary">Enviar mensaje</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <span class="overline">Contacto directo</span>
+            <h1 class="hero-title">Presupuesto en <em>24h</em></h1>
+            <p class="hero-subtitle">Consulta técnica gratuita con nuestros especialistas.</p>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; max-width: 1000px; margin: 0 auto;">
+                <div>
+                    <h2 style="font-size: 2.5rem; margin-bottom: 2rem;">Información de contacto</h2>
+                    <div style="display: flex; flex-direction: column; gap: 2rem;">
+                        <div style="display: flex; align-items: center; gap: 1rem;">
+                            <div style="width: 60px; height: 60px; background: var(--primary); border-radius: 16px; display: flex; align-items: center; justify-content: center; color: white; font-size: 1.5rem;">📞</div>
+                            <div>
+                                <h4>+34 910 000 000</h4>
+                                <p>Lun-Vie 9:00-20:00</p>
+                            </div>
+                        </div>
+                        <div style="display: flex; align-items: center; gap: 1rem;">
+                            <div style="width: 60px; height: 60px; background: var(--secondary); border-radius: 16px; display: flex; align-items: center; justify-content: center; color: white; font-size: 1.5rem;">✉️</div>
+                            <div>
+                                <h4>info@electroterapiapro.com</h4>
+                                <p>Respuesta en <strong>2h</strong></p>
+                            </div>
+                        </div>
+                        <div style="display: flex; align-items: center; gap: 1rem;">
+                            <div style="width: 60px; height: 60px; background: var(--accent); border-radius: 16px; display: flex; align-items: center; justify-content: center; color: white; font-size: 1.5rem;">📍</div>
+                            <div>
+                                <h4>Corea del sur</h4>
+                                <p>Envíos internacionales </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <form id="form" style="background: white; padding: 3rem; border-radius: var(--radius-lg); box-shadow: var(--shadow-lg);">
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-bottom: 1.5rem;">
+                            <input type="text" placeholder="Nombre *" style="padding: 16px; border: 2px solid var(--light); border-radius: var(--radius); font-size: 1rem;">
+                            <input type="tel" placeholder="Teléfono *" style="padding: 16px; border: 2px solid var(--light); border-radius: var(--radius); font-size: 1rem;">
+                        </div>
+                        <div style="margin-bottom: 1.5rem;">
+                            <input type="email" placeholder="Email *" style="width: 100%; padding: 16px; border: 2px solid var(--light); border-radius: var(--radius); font-size: 1rem;">
+                        </div>
+                        <div style="margin-bottom: 2rem;">
+                            <select style="width: 100%; padding: 16px; border: 2px solid var(--light); border-radius: var(--radius); font-size: 1rem;">
+                                <option>Interesado en...</option>
+                                <option>BrainStim Pro (281.462€)</option>
+                                <option>Optimus Pro (213.773€)</option>
+                                <option>Salus-Talent Pro (195.433€)</option>
+                                <option>Presupuesto comparativo</option>
+                            </select>
+                        </div>
+                        <textarea placeholder="Mensaje (opcional)..." rows="4" style="width: 100%; padding: 16px; border: 2px solid var(--light); border-radius: var(--radius); font-size: 1rem; font-family: inherit; resize: vertical;"></textarea>
+                        <button type="submit" class="btn btn-primary" style="width: 100%; margin-top: 1.5rem; padding: 18px;">Enviar consulta</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+    </footer>
+</body>
+</html>
